@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:ital,wght@1,300&display=swap");
+#container {
+  width: 500px;
+  background-color: #6096b4;
+  padding: 20px;
+  color: #eee9da;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin: 2px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.list {
+  margin: 15px 0;
+}
+
+.list > li {
+  background-color: #93bfcf;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  transition: 300ms all;
+  justify-content: space-between;
+}
+
+.list > li:hover {
+  background-color: #bdcdd6;
+  color: antiquewhite;
+}
+
+.list > li > .phone_number {
+  color: #6096b4;
+}
+p {
+  display: flex;
+  float: right;
+}
+.btnClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+button {
+  background-color: #93bfcf;
+  padding: 10px 60px;
+  color: #eee9da;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  transition: 300ms all;
+}
+
+button:hover {
+  background-color: #abddf9;
+  color: antiquewhite;
+}
