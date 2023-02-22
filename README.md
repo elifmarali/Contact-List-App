@@ -1,4 +1,4 @@
-# Filtreleme Ozellikli Rehber Uyugulamasi
+# Filtreleme Ozellikli Rehber Uyugulamasi - Patika
 Proje basit bir rehber uygulamasini icerir. Islevlerinden kisaca bahsetmem gerekirse: 
 1. Fullname ve phone_number isimli degerleri tutar ve ekrana basar.
 2. Iki degerden biri girilmezse add butonu bir ise yaramaz, degeri tutmaz.
